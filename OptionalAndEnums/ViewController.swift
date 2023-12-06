@@ -22,7 +22,7 @@ override func viewDidLoad() {
     let myBook = [
         Book.title("1984"),
         Book.author("Джон Орвелл"),
-        Book.pages(329)
+        Book.pages(229)
         ]
     
     printBookDescription(book: myBook)
@@ -97,9 +97,6 @@ override func viewDidLoad() {
     
 }
 }
-
-
-
 
 //1.Написать функцию, которая принимает опциональное число и, если оно есть, умножает его на 2
 //2.Использовать force unwrap для извлечения значения из опциональной переменной. Затем добавьте условие, чтобы обработать случай, если значение равно nil.
